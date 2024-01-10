@@ -20,4 +20,11 @@ public class Rectangle {
         return (rectangle.width + rectangle.height) * 2;
     }
 
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "height=" + height +
+                ", width=" + width +
+                '}';
+    }
 }
